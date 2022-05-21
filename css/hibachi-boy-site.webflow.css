@@ -2179,7 +2179,7 @@ figcaption {
 .paragraph-bigger.cc-bigger-light {
   opacity: 0.86;
   color: #fff;
-  text-align: left;
+  text-align: center;
 }
 
 .button {
@@ -2592,7 +2592,7 @@ figcaption {
 
 .navigation-item.w--current {
   opacity: 1;
-  color: #1a1b1f;
+  color: #000;
   font-weight: 600;
 }
 
@@ -3597,6 +3597,7 @@ figcaption {
 
   .menu-icon {
     display: block;
+    margin-top: 60px;
   }
 
   .navigation-items {
@@ -3795,8 +3796,8 @@ figcaption {
   }
 
   .section.cc-store-home-wrap {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .container {
@@ -3828,6 +3829,10 @@ figcaption {
   .paragraph-bigger {
     font-size: 16px;
     line-height: 28px;
+  }
+
+  .paragraph-bigger.cc-bigger-light {
+    text-align: center;
   }
 
   .heading-jumbo-tiny {
@@ -3890,6 +3895,12 @@ figcaption {
 
   .cart-container {
     min-width: 360px;
+  }
+
+  .intro-header {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .intro-content {
@@ -4026,13 +4037,23 @@ figcaption {
   }
 
   .footer-section {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .footer-section.cc-store-home-wrap {
     margin-right: 15px;
     margin-left: 15px;
+  }
+
+  .text-block-2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .text-block-3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
@@ -4097,7 +4118,8 @@ figcaption {
   }
 
   .menu-icon {
-    margin-right: 20px;
+    margin-top: 60px;
+    margin-right: 0px;
   }
 
   .cart-item-info-wrap {
@@ -4133,6 +4155,8 @@ figcaption {
   }
 
   .logo-image {
+    margin-right: 0px;
+    padding-right: 10px;
     background-image: none;
   }
 
